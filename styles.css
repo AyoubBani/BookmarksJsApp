@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(218, 220, 224);
+}
+
+.container {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 400px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 0 16px 16px 16px;
+}
+
+.header {
+  padding: 16px 0 16px 0;
+}
+
+.search-input {
+  background-image: url("icons/searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  padding: 16px 0 16px 0;
+}
+
+span {
+  text-decoration: none;
+  user-select: none;
+}
+
+li.dragging:hover {
+  background-color: rgb(232, 240, 254);
+}
+
+li.dragging {
+  opacity: 0.5;
+}
+.icon {
+  vertical-align: middle;
+  width: 18px;
+  height: 18px;
+  margin-bottom: 4px;
+  margin-right: 8px;
+}
+.delete-icon {
+  width: 18px;
+  height: 18px;
+  margin-left: auto;
+  cursor: pointer;
+}
